@@ -1,0 +1,37 @@
+<div *ngIf="store.getState().uiState.actionOngoing">
+  <mat-progress-spinner style="margin:0 auto;" mode="indeterminate" diameter="60"></mat-progress-spinner>
+</div>
+<div *ngIf="!store.getState().uiState.actionOngoing">
+  <mat-action-list>
+    <button mat-list-item *ngFor="let todo of todos" (click)="openDetail(todo)" [disabled]="todo.id === deletingId || todo.id === finishingId">
+      <span matLine>{{todo.title}}</span>
+      <span style="padding-right: 10px;" *ngIf="todo.id === deletingId || todo.id === finishingId">
+        <mat-progress-spinner style="margin:0 auto;" mode="indeterminate" diameter="20"></mat-progress-spinner>
+      </span>
+      <span matTooltip="TODO finalizado" *ngIf="todo.completed" class="finalizado-label">
+        Finalizado
+      </span>
+      <span *ngIf="!todo.completed">
+        <button 
+          mat-raised-button 
+          class="finalizar-button" 
+          (click)="onFinish($event,todo)" 
+          [disabled]="todo.id === deletingId || todo.id === finishingId">
+            Finalizar
+        </button>
+      </span>
+
+      <button 
+        matTooltip="Eliminar" 
+        mat-icon-button 
+        style="outline: 0" 
+        color="warn" 
+        (click)="onRemove($event,todo);" 
+        [disabled]="todo.id === deletingId || todo.id === finishingId">
+          <mat-icon>delete</mat-icon>
+      </button>
+      <mat-divider>
+      </mat-divider>
+    </button>
+  </mat-action-list>
+</div>

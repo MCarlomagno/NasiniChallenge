@@ -1,0 +1,17 @@
+
+<div class="container">
+  <mat-toolbar color="primary">
+    <span class="title-center">Mis TODOs</span>
+  </mat-toolbar>
+  <mat-card>
+    <mat-card-content>
+      <app-todo-list [todos]="store.getState().todosState.reverse()"></app-todo-list>
+    </mat-card-content>
+  </mat-card>
+  <button class="mat-fab-bottom-right" (click)="create()" mat-fab>
+    <mat-icon class="icon fab-icon">add</mat-icon>
+    <span class="fab-text">NUEVO TODO</span>
+  </button>
+  <footer class="footer" style="height: 120px;">
+  </footer>
+</div>

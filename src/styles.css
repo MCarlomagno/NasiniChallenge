@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-fab:not([class*=mat-elevation-z]), .mat-mini-fab:not([class*=mat-elevation-z]) .mat-fab-bottom-right {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    outline: 0; 
+    width: unset;
+    padding: 0 26px;
+    border-radius: 29px;
+}
+
+.title-center {
+    flex: 1 1 auto;
+    text-align: center
+}
+
+.finalizado-label {
+    color: #4caf50;
+    border:1px solid #4caf50;
+    border-radius: 10px;
+    padding:5px
+}
+
+.finalizado-label {
+    color: #4caf50;
+    border-radius: 5px;
+    padding:5px
+}
+
+.finalizar-button {
+    color: #fff;
+    background-color: #4caf50;
+    padding:5px
+}
+
+.form-field {
+    min-width: 600px;
+}
+
+.fab-icon {
+    margin-right: 10px;
+}
+
+.fab-text {
+    font-weight: 300;
+    letter-spacing: .1em;
+}

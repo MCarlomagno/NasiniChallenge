@@ -1,0 +1,7 @@
+export const GET_TODOS = 'GET_TODOS';
+export const ADD_TODO = 'ADD_TODO';
+export const EDIT_TODO = 'EDIT_TODO';
+export const FINISH_TODO = 'FINISH_TODO';
+export const DELETE_TODO = 'DELETE_TODO';
+export const BACKEND_ACTION_STARTED = 'BACKEND_ACTION_STARTED';
+export const BACKEND_ACTION_FINISHED = 'BACKEND_ACTION_FINISHED';
