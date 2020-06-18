@@ -1,3 +1,5 @@
+![Alt text](src/assets/IMG_20200618_000609.png?raw=true "Title")
+
 # TODO List
 Simple web project for creating todo's against a fake API (https://jsonplaceholder.typicode.com).
 
