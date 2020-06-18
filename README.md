@@ -7,10 +7,10 @@ Simple web project for creating todo's against a fake API (https://jsonplacehold
 3. npm install
 4. ng serve
   
-# Programmer notes
+## Programmer notes
 Feel free to use this repository as you want!
 
-# Tools/libraries
+## Tools/libraries
 
 - Angular 9
 - Material Design UI kit
