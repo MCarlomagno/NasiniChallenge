@@ -3,7 +3,7 @@ Simple web project for creating todo's against a fake API (https://jsonplacehold
 
 ## Clone and run it:
 1. git clone https://github.com/MCarlomagno/TODO-List.git 
-2. cd /<project-path>/
+2. cd /project-path/
 3. npm install
 4. ng serve
   
