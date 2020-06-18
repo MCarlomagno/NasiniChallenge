@@ -1,4 +1,23 @@
-# TODO List
+# todo List
+Simple web project for creating todo's against a fake API (https://jsonplaceholder.typicode.com).
+
+## Clone and run it:
+1. git clone https://github.com/MCarlomagno/TODO-List.git 
+2. cd /<project-path>/
+3. npm install
+4. ng serve
+  
+# Programmer notes
+Feel free to use this repository as you want!
+
+# Tools/libraries
+
+- Angular 9
+- Material Design UI kit
+- Bootstrap
+
+## Angular Docs
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
