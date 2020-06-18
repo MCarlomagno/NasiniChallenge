@@ -1,4 +1,4 @@
-# todo List
+# TODO List
 Simple web project for creating todo's against a fake API (https://jsonplaceholder.typicode.com).
 
 ## Clone and run it:
